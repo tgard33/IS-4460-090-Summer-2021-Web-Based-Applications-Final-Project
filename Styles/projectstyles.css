@@ -1,0 +1,118 @@
+body
+		img {
+		  position: top right;
+		  padding: 5px;
+		  width: 150px;
+		}				
+		body {
+			background-color: gray;
+		}
+		h1, h2 {
+			color: white;
+			text-align: center;			
+		}
+		* {
+		  box-sizing: border-box;
+		}
+		
+		/* Create four equal columns that floats next to each other */
+		.column {
+		  float: left;
+		  width: 25%;
+		  padding: 10px;
+		  height: 100px; 
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+
+		/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+		@media screen and (max-width: 600px) {
+		  .column {
+			width: 100%;
+		  }
+		}
+		
+		body {
+		  margin: 0;
+		}
+
+		/* Style the header */
+		.header {
+		  padding: 20px;
+		  text-align: center;
+		  background-color: maroon;
+		}
+
+		/* Style the top navigation bar */
+		.topnav {
+		  overflow: hidden;
+		  background-color: black;
+		  text-align: center;
+		}
+
+		/* Style the topnav links */
+		.topnav a {
+		  float: left;
+		  display: block;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+
+		/* Change color on hover */
+		.topnav a:hover {
+		  background-color: white;
+		  color: black;
+		}
+		
+		/* Change color when active*/
+		.topnav a.active {
+		  background-color: #2196F3;
+		  color: white;
+		}
+		
+		/* Style the footer */
+		.footer {
+		  background-color:gray;
+		  padding: 10px;
+		  text-align: center;
+		}
+		
+		/*style the form*/
+		#form1 {
+			background-color: maroon;
+			margin: auto;
+			color: white;
+			text-align: center;
+			padding: 16px 10px;
+			border-radius: 60px;
+			margin: 60px;
+		}		
+		/*style table*/
+		table {
+			margin: auto;
+			background-color:white;
+			text-align: center;
+			padding: 16px 10px;
+			margin: 60px;
+			border-radius: 40px;
+		}
+		table, td {
+		  border: 1px solid black;
+		  font-weight: bold;
+		}
+		/*style the $Result*/
+		$result {
+			background-color: maroon;
+			margin: auto;
+			color: white;
+			text-align: left;
+			padding: 16px 10px;
+			border-radius: 60px;
+			margin: 60px;
